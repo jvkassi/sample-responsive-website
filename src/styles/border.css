@@ -1,0 +1,25 @@
+.has-border-bottom {
+    border-bottom: 5px solid black;
+}
+
+.has-border-right {
+    border-right: 5px solid black;
+}
+
+.has-border-left {
+    border-left: 5px solid black;
+}
+
+.has-border-top {
+    border-top: 5px solid black;
+}
+
+.has-border {
+    border: 5px solid black;
+}
+
+@media screen and (max-width: 768px) {
+    .has-border-right {
+        border-right: none;
+    }
+}

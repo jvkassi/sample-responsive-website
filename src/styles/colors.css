@@ -1,0 +1,15 @@
+.is-blue * {
+    color: #0e66ae !important;
+}
+
+.is-red {
+    color: #e84337;
+}
+
+.is-black {
+    color: black;
+}
+
+.is-bg-black {
+    background: black;
+}

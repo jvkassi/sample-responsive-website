@@ -1,0 +1,33 @@
+/* FLEX ONLY PROPERTIES */
+
+.is-horizontal {
+    flex-direction: row;
+}
+
+.is-vertical {
+    flex-direction: column;
+}
+
+.is-centered {
+    align-items: center !important;
+}
+
+.around-justified {
+    justify-content: space-around;
+}
+
+.end {
+    align-items: flex-end !important;
+}
+
+.flex {
+    flex-grow: 1;
+}
+
+
+/* iniherit flex  grow properies */
+
+.no-auto-grow .column {
+    flex-grow: inherit;
+    flex-basis: inherit;
+}
